@@ -1,76 +1,109 @@
+/* =========================
+   RESET GLOBAL
+========================= */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* =========================
+   BASE
+========================= */
 body {
-font-family: 'Segoe UI', Tahoma, sans-serif;
-line-height: 1.7;
-background-color: #f4f4f4;
-color: #222;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.7;
+  background-color: #f4f4f4;
+  color: #222;
 }
 
+/* =========================
+   HEADER
+========================= */
 header {
-background: linear-gradient(90deg, #004d98, #a50044);
-color: white;
-padding: 20px 0;
-text-align: center;
+  background: linear-gradient(90deg, #004d98, #a50044);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
 }
 
 header h1 {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .menu {
-list-style: none;
-display: flex;
-justify-content: center;
-gap: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .menu a {
-color: white;
-text-decoration: none;
-font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .menu a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
+/* =========================
+   MAIN
+========================= */
 main {
-max-width: 900px;
-margin: 40px auto;
-padding: 0 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* =========================
+   SECTION COLLABORATIONS
+========================= */
+.collaborations {
+  max-width: 900px;      /* même largeur texte + images */
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .collaborations h2 {
-color: #004d98;
-margin: 30px 0 10px;
-border-left: 5px solid #a50044;
-padding-left: 10px;
+  color: #004d98;
+  margin: 30px 0 10px;
+  border-left: 5px solid #a50044;
+  padding-left: 10px;
 }
 
 .collaborations p {
-margin-bottom: 20px;
-text-align: justify;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
+/* ALIGNEMENT STRICT DES IMAGES */
 .collaborations img {
-width: 100%;
-max-width: 500px;
-display: block;
-margin: 20px auto;
-border-radius: 8px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  display: block;
+  width: 100%;
+  max-width: 420px;     /* taille moyenne uniforme */
+  margin: 30px auto;    /* alignement parfait */
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-footer {
-background-color: #222;
-color: white;
-text-align: center;
-padding: 15px 0;
-margin-top: 40px;
-font-size: 14px;
+/* Effet léger au survol */
+.collaborations img:hover {
+  transform: scale(1.04);
+  transition: transform 0.3s ease;
 }
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
