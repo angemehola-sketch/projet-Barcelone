@@ -1,0 +1,27 @@
+{
+ "cards": [
+     {
+      "class": "card",
+       "img": "images/Lionel Messi Wallpaper 4k Mobile Free Download.png",
+       "h3": "Lionel Messi ",
+       "paragraphe": "Légende absolue du Barça, recordman de buts et symbole d’une génération dorée.Il est considéré comme le GOAT du football!"
+    }
+
+
+    {   "class": "card",
+        "img": "images/télécharger (15).png" ,
+        "h3": "Xavi Hernandez",
+        "paragraphe": " Maestro du milieu de terrain, cerveau du jeubarcelonais.Il a remporté de nombreux titres avec le club et l'équipe nationale espagnole."
+    },
+
+    {
+        "class": "card",
+        "img": "images/télécharger (16).png",
+        "h3": "Andrés Iniesta",
+        "paragraphe": "Élégance et intelligence de jeu, héros demoments historiques.Il a marqué le but de la victoire en finale de la Coupe du Monde 2010."
+
+    }
+
+
+ ]
+}
