@@ -1,0 +1,78 @@
+{
+  "players": [
+    {
+      "image": "images/Lionel Messi Wallpaper 4k Mobile Free Download.png",
+      "hoverImage": "images/Flashbacks _ MESSI 💙❤️ (1).png",
+      "name": "Lionel Messi",
+      "description": "Légende absolue du Barça, recordman de buts et symbole d’une génération dorée."
+    },
+    {
+      "image": "images/télécharger (15).png",
+      "hoverImage": "images/Xavi.png",
+      "name": "Xavi Hernandez",
+      "description": "Maestro du milieu de terrain et cerveau du jeu barcelonais."
+    },
+    {
+      "image": "images/télécharger (16).png",
+      "name": "Andrés Iniesta",
+      "hoverImage": "images/Andres Iniesta.png",
+      "description": "Élégance et intelligence de jeu, héros de moments historiques."
+    }
+  ],
+
+  "moments": [
+    {
+      "image": "images/télécharger (11).png",
+      "hoverImage": "images/Barcelona.png",
+      "title": "Les coulisses",
+      "link": "Coulisse.html",
+      "button": "Voir moment"
+    },
+    {
+      "image": "images/Camp Nou 🏟.png",
+      "hoverImage": "images/Camp Nou 🏟 (1).png",
+      "title": "Camp Nou",
+      "link": "CampNou.html",
+      "button": "Découvrir"
+    }
+  ],
+
+  "palmares": [
+    {
+      "badge": "🏆 28",
+      "image": "images/Barça.png",
+      "title": "La Liga",
+      "description": "Le FC Barcelone a remporté la Liga à 28 reprises, ce qui en fait le club le plus titré de l’histoire de la compétition."
+    },
+    {
+      "badge": "🏆 3",
+      "image": "images/fifa world cup.png",
+      "title": "Coupe du Monde des Clubs",
+      "description": "Le FC Barcelone a remporté la Coupe du Monde des Clubs de la FIFA en 2009, 2011 et 2015."
+    },
+    {
+      "badge": "🏆 31",
+      "image": "images/téléchargement (3).png",
+      "title": "Coupe du Roi",
+      "description": "Avec 31 trophées, le FC Barcelone est le club le plus titré de la Copa del Rey."
+    },
+    {
+      "badge": "🏆 5",
+      "image": "images/téléchargement (2).png",
+      "title": "Super Coupe de l’UEFA",
+      "description": "Le Barça a remporté la Super Coupe de l’UEFA à 5 reprises, confirmant sa régularité européenne."
+    },
+    {
+      "badge": "🏆 16",
+      "image": "images/télécharger (26).png",
+      "title": "Super Coupe d’Espagne",
+      "description": "Le FC Barcelone a remporté la Super Coupe d’Espagne à 16 reprises, avec de nombreux succès dans les années 1990 et 2000."
+    },
+    {
+      "badge": "🔥 El Clásico",
+      "image": "images/téléchargement (1).png",
+      "title": "Rivalité avec le Real Madrid",
+      "description": "La rivalité entre le FC Barcelone et le Real Madrid, connue sous le nom d’El Clásico, est l’une des plus célèbres du football mondial."
+    }
+  ]
+}
